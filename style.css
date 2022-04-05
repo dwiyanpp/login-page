@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+
+:root {
+    --bt-primary: #4F46E5;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+
+/* forms */
+.forms {
+    width: 90%;
+}
+
+/* header login */
+header h1 {
+    margin-top: 2.5rem;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+header p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+
+
+/* form login */
+.btn-login {
+    background-color: var(--bt-primary);
+    width: 100%;
+}
+
+
+
+/* right */
+.right-side {
+    padding: 6rem 0;
+}
+
+.bottom-box p:first-child {
+    font-size: 14px;
+}
+
+.bottom-box p:last-child {
+    font-size: 28px;
+}
+
+
+
+
+
+.form-check-label {
+    font-size: 14px;
+}
