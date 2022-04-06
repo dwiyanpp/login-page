@@ -11,7 +11,7 @@
     <!-- My Css -->
     <link rel="stylesheet" href="style.css">
 
-    <title>Ubah Password</title>
+    <title>Login</title>
   </head>
   <body>
 
@@ -21,18 +21,29 @@
           <div class="container forms py-3">
             <header>
                 <img src="assets/img/Logo.svg" alt="logo" width="60" height="60">
-                <h1>Lupa Kata Sandi</h1>
-                <p>Masukkan email yang kamu daftarkan sebelumnya, nanti kamu bakal dikirim email.</p>
+                <h1>Masuk ke akun kamu</h1>
+                <p>Belajar gratis di <span class="fw-bold">Dwiyan.io</span>, dan memulai karir yang kamu cita-citata sejak dalam embrio!</p>
             </header>
             <section class="form-login">
               <form>
                 <div class="mb-3">
                   <label for="email" class="form-label">Email</label>
-                  <input type="email" class="form-control mt-2" id="email" aria-describedby="email" placeholder="dwiyan.prastio@gmail.com">
+                  <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="dwiyan.prastio@gmail.com">
                 </div>
-                <button type="submit" class="btn btn-primary mt-4 py-3 btn-login">Kirim Email</button>
+                <div class="mb-3">
+                  <label for="password" class="form-label">Kata Sandi</label>
+                  <input type="password" class="form-control" id="password" placeholder="Password">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Ingat Saya</label>
+                </div>
+                <button type="submit" class="btn btn-primary py-3 btn-login">Masuk</button>
+                <div class="text-center py-2">
+                  <a href="ubahpassword.html" class="text-primary">Lupa kata sandi</a>
+                </div>
                 <div class="daftar pt-4">
-                  <p>Sudah diubah? saatnya <a href="login.html">Login</a> kembali</p>
+                  <p>Belum punya akun? <a href="daftar.html">Daftar</a> sekarang, gratis!</p>
                 </div>
               </form>
             </section>
@@ -42,11 +53,11 @@
         <div class="col-md-6">
           <div class="right-side" style="background-color: #3730A3;">
             <div class="top-box">
-              <img src="assets/img/page ubah password.svg" class="overflow-hidden" alt="images" width="100%">
+              <img src="assets/img/page login.svg" class="" alt="images" width="100%">
             </div>
             <div class="bottom-box pt-3 m-auto" style="width: 70%;">
               <p class="text-white opacity-50">Dwiyan.io</p>
-              <p class="text-white">Ingat! Ubah kata sandi kamu yang tingkat keamanannya tinggi ya dan jangan beri tahu orang lain</p>
+              <p class="text-white">Belajar secara online semakin mudah – tetep belajar walaupun pake kuota dari Kemendikbud</p>
             </div>
           </div>        
         </div>

@@ -11,59 +11,77 @@
     <!-- My Css -->
     <link rel="stylesheet" href="style.css">
 
-    <title>Login</title>
+    <title>Home</title>
   </head>
   <body>
+    
 
-    <div class="container-fluid d-lg-flex justify-content-center">
-      <div class="row">
-        <div class="col-md-6 left-side">
-          <div class="container forms py-3">
-            <header>
-                <img src="assets/img/Logo.svg" alt="logo" width="60" height="60">
-                <h1>Masuk ke akun kamu</h1>
-                <p>Belajar gratis di <span class="fw-bold">Dwiyan.io</span>, dan memulai karir yang kamu cita-citata sejak dalam embrio!</p>
-            </header>
-            <section class="form-login">
-              <form>
-                <div class="mb-3">
-                  <label for="email" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="dwiyan.prastio@gmail.com">
-                </div>
-                <div class="mb-3">
-                  <label for="password" class="form-label">Kata Sandi</label>
-                  <input type="password" class="form-control" id="password" placeholder="Password">
-                </div>
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Ingat Saya</label>
-                </div>
-                <button type="submit" class="btn btn-primary py-3 btn-login">Masuk</button>
-                <div class="text-center py-2">
-                  <a href="ubahpassword.html" class="text-primary">Lupa kata sandi</a>
-                </div>
-                <div class="daftar pt-4">
-                  <p>Belum punya akun? <a href="daftar.html">Daftar</a> sekarang, gratis!</p>
-                </div>
-              </form>
-            </section>
+    <!-- navbar -->
+    <div class="container d-flex justify-content-between">
+      <div class="logo-home">
+        <img src="assets/img/Logo.svg" alt="logo" width="60" height="60">
+      </div>
+
+      
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-home">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link ms-5 active" aria-current="page" href="#">Beranda</a>
+              <a class="nav-link ms-5" href="#">Momen</a>
+              <a class="nav-link ms-5" href="#">Acara</a>
+              <a class="nav-link ms-5" href="#">FAQ</a>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link ms-5 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Akun
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Pengaturan</a></li>
+                  <li>
+                    <a class="dropdown-item position-relative border" href="#">kabar Terbaru
+                      <span class="badge rounded-pill bg-warning text-dark position-absolute top-0">8</span>
+                    </a>
+                  </li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="login.html">Keluar</a></li>
+                </ul>
+              </li>
+            </div>
           </div>
         </div>
+      </nav>
+    </div>
+    <!-- akhir navbar -->
 
-        <div class="col-md-6">
-          <div class="right-side" style="background-color: #3730A3;">
-            <div class="top-box">
-              <img src="assets/img/page login.svg" class="" alt="images" width="100%">
-            </div>
-            <div class="bottom-box pt-3 m-auto" style="width: 70%;">
-              <p class="text-white opacity-50">Dwiyan.io</p>
-              <p class="text-white">Belajar secara online semakin mudah – tetep belajar walaupun pake kuota dari Kemendikbud</p>
-            </div>
-          </div>        
+
+    <!-- header -->
+    <div class="container">
+      <div class="row border mt-5 position-relative">
+        <div class="col-6 home-left">
+          <p class="fs-6 fw-lighter">My Family</p>
+          <h1 class="fs-4 pt-3">Sebuah web aplikasi keluarga besar kami yang lengkap untuk silaturahmi, mari buat acara sekarang !</h1>
+
+          <button type="button" class="btn btn-primary position-absolute bottom-0 py-2 px-4">
+            <a href="daftar.html" class="text-white text-decoration-none">Registrasi</a>
+          </button>
+        </div>
+
+        <div class="col-6 home-right">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, cumque itaque? Impedit, accusantium sapiente consequatur quaerat itaque saepe cum natus doloribus eaque ipsum minima quia eligendi iste, animi quod quo est quasi repudiandae magni sed nihil harum, sint quis. Officiis soluta fugiat esse dolorum dolor tempora eos cum cumque? Consectetur, unde. Fugit deleniti placeat natus dignissimos optio, aliquid nihil nostrum dolorum distinctio molestias eaque iste. Perferendis fugiat voluptatem tempora id. Veritatis necessitatibus quam atque praesentium libero quisquam totam fugiat eaque, at, beatae doloremque maxime. Quis atque dignissimos perferendis quo, nesciunt iusto ea laudantium sed. Magnam autem voluptas delectus ut nobis.</p>
         </div>
       </div>
-  
     </div>
+    <!-- akhir header -->
+
+
+
+
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
