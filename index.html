@@ -17,14 +17,14 @@
     
 
     <!-- navbar -->
-    <div class="container d-flex justify-content-between">
+    <div class="container d-flex justify-content-between pt-3">
       <div class="logo-home">
         <img src="assets/img/Logo.svg" alt="logo" width="60" height="60">
       </div>
 
       
 
-      <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-home">
+      <nav class="navbar navbar-expand-lg navbar-light navbar-home">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -43,7 +43,7 @@
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="#">Pengaturan</a></li>
                   <li>
-                    <a class="dropdown-item position-relative border" href="#">kabar Terbaru
+                    <a class="dropdown-item position-relative" href="#">kabar Terbaru
                       <span class="badge rounded-pill bg-warning text-dark position-absolute top-0">8</span>
                     </a>
                   </li>
@@ -61,21 +61,34 @@
 
     <!-- header -->
     <div class="container">
-      <div class="row border mt-5 position-relative">
+      <div class="row mt-5 position-relative">
         <div class="col-md-6 home-left">
           <p class="fs-6 fw-lighter">My Family</p>
           <h1 class="fs-4 pt-1">Sebuah web aplikasi keluarga besar kami yang lengkap untuk silaturahmi, mari buat acara sekarang !</h1>
 
+          <div class="btn-acara mt-2">
+            <button type="button" class="btn btn-outline-primary py-md-2 px-md-5 me-md-3 mt-md-5">Buat Acara</button>
+            <button type="button" class="btn btn-primary py-md-2 px-md-5 mt-md-5">
+              <a href="daftar.html" class="text-white text-decoration-none">Acara Mendatang</a>
+            </button>
+          </div>
 
-          <button type="button" class="btn btn-outline-primary py-md-2 px-md-5 me-md-3 mt-md-5">Buat Acara</button>
-          <button type="button" class="btn btn-primary py-md-2 px-md-5">
-            <a href="daftar.html" class="text-white text-decoration-none">Registrasi</a>
-          </button>
-        </div>
+          <div class="total d-flex justify-content-evenly mt-5">
+            <div class="total-acara">
+              <h5 class="fw-bold">Total Acara</h5>
+                <p>13</p>
+            </div>
+            <div class="total-pengguna">
+              <h5 class="fw-bold text-md-center">Dilihat</h5>
+              <p class="text-center">18 Pengguna</p>
+            </div>
+          </div>
 
-        <div class="col-md-6 home-right">
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, cumque itaque? Impedit, accusantium sapiente consequatur quaerat itaque saepe cum natus doloribus eaque ipsum minima quia eligendi iste, animi quod quo est quasi repudiandae magni sed nihil harum, sint quis. Officiis soluta fugiat esse dolorum dolor tempora eos cum cumque? Consectetur, unde. Fugit deleniti placeat natus dignissimos optio, aliquid nihil nostrum dolorum distinctio molestias eaque iste. Perferendis fugiat voluptatem tempora id. Veritatis necessitatibus quam atque praesentium libero quisquam totam fugiat eaque, at, beatae doloremque maxime. Quis atque dignissimos perferendis quo, nesciunt iusto ea laudantium sed. Magnam autem voluptas delectus ut nobis.</p>
-        </div>
+      </div>
+
+      <div class="col-md-6">
+        <img src="assets/img/images home.svg" height="450" width="100%" alt="">
+      </div>
       </div>
     </div>
     <!-- akhir header -->
